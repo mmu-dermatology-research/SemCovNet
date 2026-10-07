@@ -25,3 +25,25 @@ If you find this work useful, please consider citing:
 
 
 # **Detailed instructions will be available soon.**
+
+
+### DINOv3 Hugging Face Access Token
+
+The implementation uses the pretrained **DINOv3 ViT-B/16 LVD-1689M** backbone from Hugging Face.
+Before running experiments with DINOv3, obtain access to the model on Hugging Face and provide your Hugging Face Hub token in:
+
+```text
+models/encoders/dinov3_encoder.py
+```
+
+Set the following variable:
+
+```python
+token = "<HF hub token for DINOv3 LVD-1689M>"  # HF hub token for DINOv3 LVD-1689M
+```
+
+Model and access instructions are available at:
+https://huggingface.co/facebook/dinov3-vitb16-pretrain-lvd1689m
+
+Make sure that your Hugging Face account has permission to access the model before running the training or evaluation scripts.
+
