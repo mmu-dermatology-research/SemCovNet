@@ -23,10 +23,6 @@ If you find this work useful, please consider citing:
 }
 ```
 
-
-# **Detailed instructions will be available soon.**
-
-
 ### DINOv3 Hugging Face Access Token
 
 The implementation uses the pretrained **DINOv3 ViT-B/16 LVD-1689M** backbone from Hugging Face.
@@ -46,4 +42,8 @@ Model and access instructions are available at:
 https://huggingface.co/facebook/dinov3-vitb16-pretrain-lvd1689m
 
 Make sure that your Hugging Face account has permission to access the model before running the training or evaluation scripts.
+
+
+# **Detailed instructions will be available soon.**
+
 
